@@ -4,42 +4,57 @@ Bu proje, öğrencilerin ders notlarını (PDF) yükleyebileceği, yapay zeka il
 
 Uygulama, göz yormayan **Zümrüt Yeşili (Emerald)** temasıyla tasarlanmış olup, tamamen kullanıcı odaklı bir deneyim sunar.
 
+---
+
 ## ✨ Özellikler
 
-- **PDF Not Analizi:** Ders notlarınızı yükleyin ve içeriğini anında dijital ortama aktarın.
-- **AI Sohbet (Gemini):** Notlarınızla ilgili sorular sorun, özet çıkartın veya zor kavramları açıklatın.
-- **Not Yönetimi:** Notlarınızı listeleyin ve ihtiyacınız olmayanları tek tıkla silin.
-- **Dinamik Modüller:** Quiz oluşturucu ve Çalışma Planlayıcı sekmeleriyle genişletilebilir altyapı.
-- **Modern Arayüz:** Karanlık mod ve zümrüt yeşili detaylarla şık tasarım.
+* **PDF Not Analizi:** Ders notlarınızı yükleyin ve içeriğini anında dijital ortama aktarın.
+* **AI Sohbet (Gemini):** Notlarınızla ilgili sorular sorun, özet çıkartın veya zor kavramları açıklatın.
+* **Not Yönetimi:** Notlarınızı listeleyin ve ihtiyacınız olmayanları tek tıkla silin.
+* **Dinamik Modüller:** Quiz oluşturucu ve Çalışma Planlayıcı sekmeleriyle genişletilebilir altyapı.
+* **Modern Arayüz:** Karanlık mod ve zümrüt yeşili detaylarla şık tasarım.
+
+---
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- **Frontend:** [Next.js](https://nextjs.org/) (App Router), React, Tailwind CSS
-- **Backend:** Next.js API Routes
-- **Veritabanı & Depolama:** [Supabase](https://supabase.com/) (PostgreSQL & Storage)
-- **Yapay Zeka:** [Google Gemini API](https://ai.google.dev/)
-- **İkonlar:** Lucide React
+* **Frontend:** [Next.js](https://nextjs.org/) (App Router), React, Tailwind CSS
+* **Backend:** Next.js API Routes
+* **Veritabanı & Depolama:** [Supabase](https://supabase.com/) (PostgreSQL & Storage)
+* **Yapay Zeka:** [Google Gemini API](https://ai.google.dev/)
+* **İkonlar:** Lucide React
 
-## 🚀 Kurulum
+---
 
-Projeyi yerelde çalıştırmak için şu adımları izleyin:
+## 🚀 Kurulum ve Yerel Çalıştırma
 
-1. Depoyu klonlayın:
-   ```bash
-   git clone [https://github.com/tubakoten/ai-study-assistant.git](https://github.com/tubakoten/ai-study-assistant.git)
-Bağımlılıkları yükleyin:
+Projeyi kendi bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
-Bash
-npm install
-.env.local dosyasını oluşturun ve gerekli anahtarları ekleyin:
+1.  **Depoyu klonlayın:**
+    ```bash
+    git clone [https://github.com/tubakoten/ai-study-assistant.git](https://github.com/tubakoten/ai-study-assistant.git)
+    ```
 
-Kod snippet'i
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
-Uygulamayı başlatın:
+2.  **Bağımlılıkları yükleyin:**
+    ```bash
+    npm install
+    ```
 
-Bash
-npm run dev
-👤 Geliştirici
-Tuba Köten
+3.  **`.env.local` dosyasını oluşturun ve anahtarları ekleyin:**
+    ```env
+    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+    NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+    ```
+
+4.  **Uygulamayı başlatın:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 👤 Geliştirici
+
+* **Tuba Köten** - *Bilgisayar Mühendisliği Öğrencisi*
+* **GitHub:** [@tubakoten](https://github.com/tubakoten)
